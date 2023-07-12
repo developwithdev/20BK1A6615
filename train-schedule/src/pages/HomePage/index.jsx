@@ -7,7 +7,7 @@ const HomePage = () => {
       <h1>Trains Schedule Info</h1>
       <Link to='/all-trains'>All Trains</Link>
       &nbsp;&nbsp;&nbsp;
-      <Link to='/single-train'>Single Train</Link>
+{/*       <Link to='/single-train'>Single Train</Link> */}
     </div>
   );
 };
