@@ -11,6 +11,7 @@ const SingleTrain = () => {
         const {data} = await getSingleTrain(id)
       // data.departure = Object.values(train.departureTime).join(":")
       console.log(data.departureTime)
+      if(data.trainName)
       setTrain(data)
       console.log(data)
       } catch (error) {
