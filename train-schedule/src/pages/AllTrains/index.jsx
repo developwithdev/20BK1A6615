@@ -11,6 +11,7 @@ const AllTrains = () => {
       try {
         const {data} = await API.getAllTrains();
       console.log(data)
+      if(data && data.length)
       setAllTrainsData(data);
       } catch (error) {
         console.log(error)
