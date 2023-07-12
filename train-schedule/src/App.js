@@ -3,6 +3,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import AllTrains from './pages/AllTrains';
 import SingleTrain from './pages/SingleTrain';
+import "./App.css"
 
 function App() {
   return (
