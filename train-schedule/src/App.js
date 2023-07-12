@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/all-trains' element={<AllTrains />} />
-        <Route path='/single-trains' element={<SingleTrain />} />
+        <Route path='/single-trains/:id' element={<SingleTrain />} />
       </Routes>
     </BrowserRouter>
   );
